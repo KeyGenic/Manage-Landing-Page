@@ -1,0 +1,55 @@
+@import '../../color-variables/color-var.styles.scss';
+
+#header-section{
+    .tablet-pill{
+        position: absolute;
+        z-index: -1;
+        left: 100%;
+        bottom: 10%;
+        transform: translate(-70%);
+        -webkit-transform: translate(-70%);
+        -moz-transform: translate(-70%);
+        -ms-transform: translate(-70%);
+        -o-transform: translate(-70%);
+}.pill{
+    fill: $brightred;
+    opacity: 0.2;
+    height: 100%;
+}
+.logo{
+    margin: 30px;
+}
+.hero-imgs{
+    transform: translateX(-3rem);
+    -webkit-transform: translateX(-3rem);
+    -moz-transform: translateX(-3rem);
+    -ms-transform: translateX(-3rem);
+    -o-transform: translateX(-3rem);
+    .graph{
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+}
+}
+.hero-action{
+    text-align: center;
+    h1{
+        font-weight:bolder;
+        font-size: 300%;
+    }
+    p{
+        color:$darkgrayishblue ;
+        font-size: 90%;
+        width: 75%;
+        position: relative;
+        left: 10%;
+        transform: translateX(1rem);
+        -webkit-transform: translateX(1rem);
+        -moz-transform: translateX(1rem);
+        -ms-transform: translateX(1rem);
+        -o-transform: translateX(1rem);
+}
+}
+}
