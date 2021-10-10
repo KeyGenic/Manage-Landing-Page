@@ -1,0 +1,54 @@
+@import '../../color-variables/color-var.styles.scss';
+
+#body-section{
+    text-align: center;
+    padding: 20% 0;
+    h1{
+        font-size: 250%;
+    }
+    p{
+        margin: 20px;
+        color: $darkgrayishblue;
+    }
+    .points-container{
+        .points{
+            margin-top: 50px;
+            h3{                
+            &::before{
+                content: "";
+                height: 43px;
+                width: 100%;
+                background-color: hsla(12, 88%, 59%, 0.226);
+                position: absolute;
+                left: 10%;
+                transform: translateY(-0.3rem);
+                -webkit-transform: translateY(-0.3rem);
+                -moz-transform: translateY(-0.3rem);
+                -ms-transform: translateY(-0.3rem);
+                -o-transform: translateY(-0.3rem);
+}
+                span{
+                    background-color: $brightred;
+                    color: #fff;
+                    float: left;
+                    padding: 10px;
+                    border-radius: 30px;
+                    -webkit-border-radius: 30px;
+                    -moz-border-radius: 30px;
+                    -ms-border-radius: 30px;
+                    -o-border-radius: 30px;
+                    width: 17%;
+                    font-size: 80%;
+                    transform: translate(1rem,-0.3rem);
+                    -webkit-transform: translate(1rem,-0.3rem);
+                    -moz-transform: translate(1rem,-0.3rem);
+                    -ms-transform: translate(1rem,-0.3rem);
+                    -o-transform: translate(1rem,-0.3rem);
+}
+            }
+        }
+        p{
+            text-align: left;
+        }
+    }
+}

@@ -16,6 +16,17 @@
     opacity: 0.2;
     height: 100%;
 }
+.small-pill{
+    position: absolute;
+    opacity: 0.2;
+    left: 10%;
+    bottom: -115%;
+}
+
+.sm-pill{
+    fill: $brightred;
+}
+
 .logo{
     margin: 30px;
 }
