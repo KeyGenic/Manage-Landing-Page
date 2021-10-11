@@ -3,7 +3,7 @@ import './cta-btn-style.scss';
 
 export const GetStarted = () => {
     return(
-        <button className = "get-started-btn">
+        <button className = "get-started-btn simplify-btn">
             Get Started
         </button>
     )

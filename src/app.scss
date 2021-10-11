@@ -1,0 +1,30 @@
+@import './color-variables/color-var.styles.scss';
+
+.simplify{
+    background-color: $brightred;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 270%;
+        margin: 50px;
+        padding-top: 50px;
+    }
+    .btn{
+        text-align: center;
+        transform: translateY(-3rem);
+        -webkit-transform: translateY(-3rem);
+        -moz-transform: translateY(-3rem);
+        -ms-transform: translateY(-3rem);
+        -o-transform: translateY(-3rem);
+        .simplify-btn{
+        background-color:$verypalered !important;
+        color:$brightred;
+    }
+}
+    .side-tablet{
+        position:absolute ;
+    .side-pill{
+        fill: hsl(0, 0%, 100%) ;
+    }
+}
+}
