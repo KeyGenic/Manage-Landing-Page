@@ -19,8 +19,13 @@
 .small-pill{
     position: absolute;
     opacity: 0.2;
-    left: 10%;
-    bottom: -115%;
+    left: 100%;
+    bottom: -110%;
+    transform: translate(-80%);
+    -webkit-transform: translate(-80%);
+    -moz-transform: translate(-80%);
+    -ms-transform: translate(-80%);
+    -o-transform: translate(-80%);
 }
 
 .sm-pill{
@@ -31,17 +36,18 @@
     margin: 30px;
 }
 .hero-imgs{
-    transform: translateX(-3rem);
-    -webkit-transform: translateX(-3rem);
-    -moz-transform: translateX(-3rem);
-    -ms-transform: translateX(-3rem);
-    -o-transform: translateX(-3rem);
+    text-align: center;
+    .illustration{
+        position: relative;
+        left: -30px;
+        justify-self: center;
+    }
     .graph{
-        transform: scale(0.8);
-        -webkit-transform: scale(0.8);
-        -moz-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        -o-transform: scale(0.8);
+        transform: scale(0.6) ;
+        -webkit-transform: scale(0.6) ;
+        -moz-transform: scale(0.6) ;
+        -ms-transform: scale(0.6) ;
+        -o-transform: scale(0.6) ;
 }
 }
 .hero-action{
@@ -63,4 +69,67 @@
         -o-transform: translateX(1rem);
 }
 }
+.header-nav{
+    .desktop{
+        position: absolute;
+        right: 5%;
+        top: -2%;
+    }
+}
+}
+
+@media screen and (max-width:450px){
+    .illustration{
+        position:relative !important;
+        left:-100px !important ;
+    }
+}
+
+@media screen and (min-width:475px) {
+    .hero-imgs{
+       position: unset !important;
+       .graph{
+        transform: scale(0.8) !important ;
+        -webkit-transform: scale(0.8) !important ;
+        -moz-transform: scale(0.8) !important ;
+        -ms-transform: scale(0.8) !important ;
+        -o-transform: scale(0.8) !important ;
+}
+    }
+}
+
+@media screen and (min-width:1030px) {
+    .hero-imgs{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 50px;
+        .hero-action{
+            text-align: left !important;
+            h1{
+                font-size: 250% !important;
+                width: 500px;
+                text-align: left;
+            }
+            p{
+                width: 50% !important; 
+                position: absolute;
+                left: -2% !important;
+                margin: 20px 0;
+            }
+        }
+        .illustration{
+            width: 300px;
+           position: relative;
+        }
+       .graph{
+        position: absolute;
+        left: -75%;
+        bottom: -20%;
+        transform: scale(0.7) !important ;
+        -webkit-transform: scale(0.7) !important ;
+        -moz-transform: scale(0.7) !important ;
+        -ms-transform: scale(0.7) !important ;
+        -o-transform: scale(0.7) !important ;
+}
+    }
 }

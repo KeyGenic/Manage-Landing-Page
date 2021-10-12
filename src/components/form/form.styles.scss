@@ -1,16 +1,14 @@
 @import '../../color-variables/color-var.styles.scss';
 
 #form{
-    margin-left: 30px;
     padding: 40px;
-    text-align: left;
     input{
         border-radius: 50px;
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
-        width: 60%;
+        width: 180px;
         height: 5vh;
 }
     button{

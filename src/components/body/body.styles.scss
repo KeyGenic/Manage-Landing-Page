@@ -13,10 +13,11 @@
     .points-container{
         .points{
             margin-top: 50px;
+            font-size: 75%;
             h3{                
             &::before{
                 content: "";
-                height: 43px;
+                height: 38px;
                 width: 100%;
                 background-color: hsla(12, 88%, 59%, 0.226);
                 position: absolute;
@@ -37,7 +38,7 @@
                     -moz-border-radius: 30px;
                     -ms-border-radius: 30px;
                     -o-border-radius: 30px;
-                    width: 17%;
+                    width: 100px;
                     font-size: 80%;
                     transform: translate(1rem,-0.3rem);
                     -webkit-transform: translate(1rem,-0.3rem);
