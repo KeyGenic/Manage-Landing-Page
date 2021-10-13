@@ -34,3 +34,36 @@ footer{
         margin-top: 20px;
     }
 }
+
+@media screen and (min-width:1030px){
+    footer{
+        position: relative;
+        height: 40vh;
+    }
+
+    nav{
+        position: relative;
+        bottom: 5%;
+        width: 1400px;
+        ul{
+            li{
+                margin: 15px;
+            }
+        }
+    }
+
+    .logo-footer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 50px 150px;
+    }
+    .social-media{
+      justify-content: left !important;
+      margin: -50px 130px !important;
+    }
+    p{
+        float: right;
+        margin: 0 50px;
+    }
+}

@@ -37,3 +37,12 @@
         background-color: $brightred;
     }
 }
+
+@media  screen and (min-width:1030px)  {
+    .testimonials-section{
+      margin-top: -100px !important;
+      .splide__pagination{
+          display: none;
+      }
+    }
+}

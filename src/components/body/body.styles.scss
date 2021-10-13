@@ -53,3 +53,43 @@
         }
     }
 }
+
+@media  screen and (min-width:1030px) {
+    #body-section{
+        display: flex;
+        margin: 100px 150px;
+        padding-top: 200px;
+        .body-info{
+            text-align: left;
+            h1{
+                font-size: 250% !important;
+                width: 500px;
+            }
+            p{
+                margin: 0;
+                margin-top: 20px;
+            }
+        }
+        .points-container{
+            margin-left: 100px;
+            .points{
+                h3{        
+                        
+                    font-size: 150%;
+                    &::before{
+                        display: none;
+    }
+            }
+            p{
+                text-align: left;
+                
+                transform:translateX(5.5rem) ;
+                -webkit-transform:translateX(5.5rem) ;
+                -moz-transform:translateX(5.5rem) ;
+                -ms-transform:translateX(5.5rem) ;
+                -o-transform:translateX(5.5rem) ;
+}
+            }
+        }
+}
+}

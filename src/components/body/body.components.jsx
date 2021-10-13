@@ -4,8 +4,10 @@ import './body.styles.scss'
 export const Body = () => {
     return(
         <div id = "body-section">
+            <div className = "body-info">
             <h1>What's different about Manage</h1>
             <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+            </div>
             <div className = "points-container">
                 <div className = "points">
                     <h3><span>01</span>Track company-wide progress</h3>

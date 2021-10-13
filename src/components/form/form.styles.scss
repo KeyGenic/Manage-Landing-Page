@@ -26,3 +26,11 @@
         border:transparent
 }
 }
+
+@media screen and (min-width:1030px){
+    #form{
+        .email-container{
+            float: right;
+        }
+    }
+}
